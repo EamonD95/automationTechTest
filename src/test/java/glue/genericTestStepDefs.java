@@ -1,13 +1,16 @@
 package glue;
 
 import config.Environments;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import test.pages.Page;
+import test.pages.contactUs.ContactUs;
 import test.pages.dresses.Dresses;
 import test.pages.homepage.Homepage;
 import test.pages.search.SearchResults;
+import test.pages.shoppingCart.ShoppingCart;
 import test.pages.signIn.CreateAnAccount;
 import test.pages.signIn.MyAccount;
 import test.pages.signIn.SignIn;
@@ -40,6 +43,9 @@ public class genericTestStepDefs extends Page {
 
     MyAccount myAccount;
 
+    ShoppingCart shoppingCart;
+
+    ContactUs contactUs;
 
     @Given("^I am on the homepage$")
     public void navigateToHomepage() {
@@ -87,6 +93,10 @@ public class genericTestStepDefs extends Page {
                 typeInto(searchField, "Blouse");
                 setSessionVariable("searchCriteria").to(searchCriteria);
                 break;
+            case "FADED SHORT SLEEVE T-SHIRTS":
+                typeInto(searchField, "Faded Short Sleeve T-shirts");
+                setSessionVariable("searchCriteria").to(searchCriteria);
+                break;
             default:
                 pendingStep(searchCriteria + " is not defined within " + getMethodName());
         }
@@ -116,4 +126,43 @@ public class genericTestStepDefs extends Page {
         myAccount.assertWelcomeToAccountMessage();
     }
 
+    @When("^I select an \"([^\"]*)\" from the page$")
+    public void selectItemFromStorePage(String item) {
+        switch (item.toUpperCase()) {
+            case "FADED SHORT SLEEVE T-SHIRTS":
+                women.selectFadedShortSleeveTShirt();
+                setSessionVariable("item").to(item);
+                break;
+            default:
+                pendingStep(item + " is not defined within " + getMethodName());
+        }
+    }
+
+    @And("^I add click the Add to Cart button$")
+    public void clickAddToCartButton() {
+        clickOn(addToCartButton);
+    }
+
+    @Then("^the item should be added to the shopping cart$")
+    public void assertItemAddedToShoppingCart() {
+        clickOn(proceedToCheckoutButton);
+        shoppingCart.assertShoppingCartPageTitle();
+        assertThat(shoppingCart.shoppingCartDescription.getText(), is(sessionVariableCalled("item").toString()));
+    }
+
+    @When("^I navigate to the contact us page$")
+    public void navigateToContactUsPage() {
+        clickOn(contactUsLink);
+        contactUs.assertContactUsPageTitle();
+    }
+
+    @And("^I create and send a message$")
+    public void createAndSendAMessage() {
+        contactUs.sendContactUsMessage();
+    }
+
+    @Then("^the successful message banner should appear$")
+    public void assertContactUsSuccessMessageIsDisplayed() {
+        contactUs.assertCustomerServiceSuccessMessage();
+    }
 }

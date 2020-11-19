@@ -50,6 +50,15 @@ public class Page extends PageObject {
     @FindBy(xpath = "//a[@class='login']")
     public WebElementFacade signInLink;
 
+    @FindBy(xpath = "//p[@id='add_to_cart']")
+    public WebElementFacade addToCartButton;
+
+    @FindBy(xpath = "//a[@title='Proceed to checkout']")
+    public WebElementFacade proceedToCheckoutButton;
+
+    @FindBy(xpath = "//a[@title='Contact Us']")
+    public WebElementFacade contactUsLink;
+
 
     public void sleep(int milliseconds) {
         try {

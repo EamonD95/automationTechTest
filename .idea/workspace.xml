@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c894c675-a0c8-4955-bf9c-5715c04da00f" name="Default Changelist" comment="" />
+    <list default="true" id="c894c675-a0c8-4955-bf9c-5715c04da00f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/pages/contactUs/ContactUs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/pages/shoppingCart/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/glue/genericTestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glue/genericTestStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/pages/women/Women.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/pages/women/Women.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/genericTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/genericTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/glue/genericTestStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/glue/genericTestStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/women/Women.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/women/Women.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,12 +39,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1VwR53FGpVbQgpvV2sPIAqZtgH9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576763752532" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -39,11 +58,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User can create a new account by filling in personal information">
+  <component name="RunManager" selected="Cucumber java.Scenario: User can add an item to their shopping cart from the homepage">
+    <configuration name="Scenario: User can add an item to their shopping cart from the homepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
+      <option name="GLUE" value="glue net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="automationTechTest" />
+      <option name="NAME_FILTER" value="^User can add an item to their shopping cart from the homepage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User can add an item to their shopping cart from the homepage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can add an item to their shopping cart from the homepage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User can create a new account by filling in personal information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors glue" />
+      <option name="GLUE" value="glue net.serenitybdd.cucumber.actors" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="automationTechTest" />
       <option name="NAME_FILTER" value="^User can create a new account by filling in personal information$" />
@@ -62,7 +100,7 @@
     <configuration name="Scenario: User can search using the search bar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors glue" />
+      <option name="GLUE" value="glue net.serenitybdd.cucumber.actors" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="automationTechTest" />
       <option name="NAME_FILTER" value="^User can search using the search bar$" />
@@ -78,15 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can submit information using Get In Touch form" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can use the contact us page to send message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors glue" />
+      <option name="GLUE" value="glue net.serenitybdd.cucumber.actors" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="automationTechTest" />
-      <option name="NAME_FILTER" value="^User can submit information using Get In Touch form$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User can submit information using Get In Touch form$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can submit information using Get In Touch form" />
+      <option name="NAME_FILTER" value="^User can use the contact us page to send message$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User can use the contact us page to send message$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can use the contact us page to send message" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -100,31 +138,12 @@
     <configuration name="Scenario: User navigates to different page using navigation bar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors glue" />
+      <option name="GLUE" value="glue net.serenitybdd.cucumber.actors" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="automationTechTest" />
       <option name="NAME_FILTER" value="^User navigates to different page using navigation bar$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User navigates to different page using navigation bar$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User navigates to different page using navigation bar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/genericTests.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors glue" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="automationTechTest" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -184,10 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: User can add an item to their shopping cart from the homepage" />
         <item itemvalue="Cucumber java.Scenario: User can create a new account by filling in personal information" />
         <item itemvalue="Cucumber java.Scenario: User can search using the search bar" />
-        <item itemvalue="Cucumber java.Scenario: User can submit information using Get In Touch form" />
         <item itemvalue="Cucumber java.Scenario: User navigates to different page using navigation bar" />
+        <item itemvalue="Cucumber java.Scenario: User can use the contact us page to send message" />
       </list>
     </recent_temporary>
   </component>
@@ -217,22 +237,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="388" key="GridCell.Tab.0.bottom" timestamp="1605724737612">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2334" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605786324665">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2334" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605786324665" />
+    <state width="1877" height="388" key="GridCell.Tab.0.bottom" timestamp="1605801788573">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605801788573" />
     <state width="1877" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605724737612" />
-    <state width="1877" height="388" key="GridCell.Tab.0.center" timestamp="1605724737612">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="388" key="GridCell.Tab.0.center" timestamp="1605801788573">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="388" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605801788573" />
     <state width="1877" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605724737612" />
-    <state width="1877" height="388" key="GridCell.Tab.0.left" timestamp="1605724737612">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="388" key="GridCell.Tab.0.left" timestamp="1605801788572">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="388" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605801788572" />
     <state width="1877" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605724737612" />
-    <state width="1877" height="388" key="GridCell.Tab.0.right" timestamp="1605724737612">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="388" key="GridCell.Tab.0.right" timestamp="1605801788573">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="388" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605801788573" />
     <state width="1877" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605724737612" />
+    <state width="1877" height="600" key="GridCell.Tab.1.bottom" timestamp="1605796689819">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="600" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605796689819" />
+    <state width="1877" height="600" key="GridCell.Tab.1.center" timestamp="1605796689819">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="600" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605796689819" />
+    <state width="1877" height="600" key="GridCell.Tab.1.left" timestamp="1605796689818">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="600" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605796689818" />
+    <state width="1877" height="600" key="GridCell.Tab.1.right" timestamp="1605796689819">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="600" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605796689819" />
     <state x="440" y="98" key="SettingsEditor" timestamp="1605724376268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,9 +285,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605724566946" />
-    <state x="667" y="154" width="586" height="732" key="find.popup" timestamp="1605724675393">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2782" y="144" width="987" height="732" key="find.popup" timestamp="1605799982819">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2782" y="144" width="987" height="732" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605799982819" />
     <state x="667" y="154" width="586" height="732" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605724675393" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/glue/genericTestStepDefs.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
